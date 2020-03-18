@@ -90,6 +90,9 @@
 #define RT_USING_SERIAL
 #define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
+#define RT_USING_SPI
+#define BSP_USING_SPI
+#define BSP_USING_SPI3
 
 /* Using USB */
 
