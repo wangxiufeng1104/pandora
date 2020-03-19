@@ -82,12 +82,12 @@ rt_uint32_t ColorToColor(rt_uint32_t color0, rt_uint32_t color1)//´ýÑÐ¾¿
 int main(void)
 {
     /* set LED0 pin mode to output */
-    rt_uint16_t colorArr[] = {BLACK,BLUE,GREEN,GBLUE,CYAN,GRAY,GRAY151,GRAY175,BROWN,GRAY187,GRAY240,RED,BRED,BRRED,YELLOW,WHITE};
+/*    rt_uint16_t colorArr[] = {BLACK,BLUE,GREEN,GBLUE,CYAN,GRAY,GRAY151,GRAY175,BROWN,GRAY187,GRAY240,RED,BRED,BRRED,YELLOW,WHITE};
     rt_pin_mode(LED0_PIN, PIN_MODE_OUTPUT);
     for(int i = 1;i < (sizeof(colorArr)/sizeof(colorArr[0])); i++)
     {
         ColorToColor(colorArr[i - 1],colorArr[i]);
-    }
+    }*/
 /*    while (count++)
     {
         colorNum ++;
